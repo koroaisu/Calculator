@@ -1,0 +1,32 @@
+# Qt ビルドファイル
+build/
+debug/
+release/
+*.o
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+Makefile
+
+# Qt Creator ファイル
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+.qmake.cache
+.qmake.stash
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 実行ファイル
+*.exe
+*.app
